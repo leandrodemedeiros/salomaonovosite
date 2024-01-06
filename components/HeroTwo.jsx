@@ -59,7 +59,7 @@ const HeroTwo = () => {
               data-aos-once="true"
               data-aos-duration={1000}
             >
-              <h1 className="hero-content-title">Encontre seu lugar perfeito para viver</h1>
+              <h1 className="hero-content-title">Find a perfect property Where you&rsquo;ll love to live</h1>
               <p className="hero-content-description">
                 We helps businesses customize, automate and scale up their ad production and delivery.
               </p>

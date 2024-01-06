@@ -59,7 +59,7 @@ const Hero = () => {
             >
               <div className="hero-content">
                 <h1 className="hero-content-title">
-                  Encontre o lugar perfeito Onde você vai adorar viver
+                  Find a perfect property Where you&rsquo;ll love to live
                 </h1>
                 <p className="hero-content-description">
                   We helps businesses customize, automate and scale up their ad
