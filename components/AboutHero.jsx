@@ -18,9 +18,9 @@ const AboutHero = () => {
         <div className="row">
           <div className="col-12 col-md-8 col-lg-8 mx-auto">
             <div className="about-content text-center">
-              <h1>Somos uma agência de imóvies que preza pelo seu bem-estar.</h1>
+              <h1>Nós prezamos pelo seu bem-estar.</h1>
               <p>
-                Conheça a nossa história. Nós queremos ajudar você a continuar construindo a sua.
+                Conheça a nossa história e nos permita ajudar você a continuar construindo a sua.
               </p>
             </div>
           </div>

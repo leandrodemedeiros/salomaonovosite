@@ -12,7 +12,7 @@ import React, { useRef } from "react";
 
 const Agent = ({ params }) => {
   const agent = agentInformationData.find((info) => info.id === +params.id);
-  useTitle("Agent Profile || RealStatic");
+  useTitle("Agent Profile || Salomão Imóveis");
 
   const property = useRef(null);
   const propertyInView = useInView(property);

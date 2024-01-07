@@ -5,7 +5,7 @@ import AboutHero from "@/components/AboutHero";
 import Team from "@/components/Team";
 
 export const metadata = {
-  title: "About Us | RealStatic",
+  title: "Quem somos | Salomão Imóveis",
 };
 
 const About = () => {

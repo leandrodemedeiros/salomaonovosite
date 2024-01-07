@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy & Policy | RealStatic",
+  title: "Privacy & Policy | Salomão Imóveis",
 };
 
 const page = () => {

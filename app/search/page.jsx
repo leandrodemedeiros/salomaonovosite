@@ -3,7 +3,7 @@ import useTitle from "@/hooks/useTitle";
 import { MagnifyingGlass } from "phosphor-react";
 
 const Search = () => {
-  useTitle("Search | RealStatic");
+  useTitle("Search | Salomão Imóveis");
   return (
     <section className="search">
       <div className="container">

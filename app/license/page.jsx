@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "License | RealStatic",
+  title: "License | Salomão Imóveis",
 };
 
 const page = () => {

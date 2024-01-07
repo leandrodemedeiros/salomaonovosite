@@ -9,7 +9,7 @@ export const generateStaticParams = async () => {
 };
 
 export const metadata = {
-  title: "Blogs | RealStatic",
+  title: "Blogs | Salomão Imóveis",
 };
 
 const page = () => {

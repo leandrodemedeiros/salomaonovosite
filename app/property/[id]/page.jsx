@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Property Details | RealStatic",
+  title: "Property Details | Salomão Imóveis",
 };
 
 export const generateStaticParams = async () => {

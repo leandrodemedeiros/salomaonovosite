@@ -4,7 +4,7 @@ import useTitle from "@/hooks/useTitle";
 import {EnvelopeSimpleOpen, Phone, User} from "phosphor-react";
 
 const Contact = () => {
-  useTitle("Contact Us | RealStatic");
+  useTitle("Contact Us | Salomão Imóveis");
   return (
     <section className="contact">
       <div className="container">
