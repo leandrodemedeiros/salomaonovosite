@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-address">
                   <p>
-                    59 Bervely Hill Ave, Brooklyn Town, <br />
+                    Brasilia <br />
                     New York, NY 5630, CA, US
                   </p>
                   <p className="contact-number mb-0">
