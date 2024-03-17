@@ -80,7 +80,7 @@ const Hero = () => {
                     >
                       Comprar
                     </button>
-                    <button
+                    {/* <button
                       className="nav-link"
                       id="nav-sell-tab"
                       data-bs-toggle="tab"
@@ -91,7 +91,7 @@ const Hero = () => {
                       aria-selected="false"
                     >
                       Vender
-                    </button>
+                    </button> */}
                     <button
                       className="nav-link"
                       id="nav-rent-tab"
@@ -256,7 +256,7 @@ const Hero = () => {
                       </div>
                     </form>
                   </div>
-                  <div
+                  {/* <div
                     className="tab-pane fade"
                     id="nav-sell"
                     role="tabpanel"
@@ -404,7 +404,7 @@ const Hero = () => {
                         </button>
                       </div>
                     </form>
-                  </div>
+                  </div> */}
                   <div
                     className="tab-pane fade"
                     id="nav-rent"

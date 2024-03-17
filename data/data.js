@@ -168,12 +168,12 @@ export const propertiesCategory = [
 export const propertiesData = [
   {
     id: 4,
-    title: "Hillside Cottage in the wood",
+    title: "Hillside Casa in the wood",
     location: "789 Oak St, City, State 54321",
     bed: 2,
     bath: 1,
     area: 800,
-    type: "cottage",
+    type: "Casa",
     price: 300000,
     category: ["residential", "commercial"],
     coverImg: "/images/properties/properties10.png",
@@ -186,7 +186,7 @@ export const propertiesData = [
     ],
     monthlyPayment: 800,
     details: {
-      title: "Charming Cottage with Lake Views",
+      title: "Charming Casa with Lake Views",
       description: "Escape to this cozy retreat by the lake.",
     },
     features: {
@@ -209,12 +209,12 @@ export const propertiesData = [
   },
   {
     id: 5,
-    title: "Luxury Penthouse in the Sky",
+    title: "Luxury Apartamento in the Sky",
     location: "987 Pine St, City, State 56789",
     bed: 3,
     bath: 3,
     area: 2000,
-    type: "penthouse",
+    type: "Apartamento",
     price: 1500000,
     category: ["residential", "agriculture"],
     coverImg: "/images/properties/properties5.png",
@@ -227,8 +227,8 @@ export const propertiesData = [
     ],
     monthlyPayment: 3000,
     details: {
-      title: "Exquisite Penthouse with Panoramic Views",
-      description: "Experience luxury living at its finest in this penthouse.",
+      title: "Exquisite Apartamento with Panoramic Views",
+      description: "Experience luxury living at its finest in this Apartamento.",
     },
     features: {
       parking: true,
@@ -456,12 +456,12 @@ export const propertiesData = [
   },
   {
     id: 10,
-    title: "Cozy Cottage by the Lake",
+    title: "Cozy Casa by the Lake",
     location: "789 Oak St, City, State 54321",
     bed: 2,
     bath: 1,
     area: 800,
-    type: "cottage",
+    type: "Casa",
     price: 300000,
     category: ["agriculture"],
     coverImg: "/images/properties/properties4.png",
@@ -474,7 +474,7 @@ export const propertiesData = [
     ],
     monthlyPayment: 800,
     details: {
-      title: "Charming Cottage with Lake Views",
+      title: "Charming Casa with Lake Views",
       description: "Escape to this cozy retreat by the lake.",
     },
     features: {
@@ -502,7 +502,7 @@ export const propertiesData = [
     bed: 3,
     bath: 3,
     area: 2000,
-    type: "penthouse",
+    type: "Apartamento",
     category: ["agriculture", "industrial"],
     price: 1500000,
     coverImg: "/images/properties/properties11.png",
@@ -515,8 +515,8 @@ export const propertiesData = [
     ],
     monthlyPayment: 3000,
     details: {
-      title: "Exquisite Penthouse with Panoramic Views",
-      description: "Experience luxury living at its finest in this penthouse.",
+      title: "Exquisite Apartamento with Panoramic Views",
+      description: "Experience luxury living at its finest in this Apartamento.",
     },
     features: {
       parking: true,
@@ -856,7 +856,7 @@ export const agentInformationData = [
     email: "johnsmith@gmail.com",
     phone: "(123) 456-7890",
     experience: 8,
-    propertyType: ["Condo", "Penthouse", "Duplex"],
+    propertyType: ["Condo", "Apartamento", "Duplex"],
     area: "New York, Manhattan",
     license: "BF-01234",
     website: "http://www.johnsmith.com",
@@ -1156,7 +1156,7 @@ export const agentInformationData = [
     email: "josephturner@gmail.com",
     phone: "(123) 456-7902",
     experience: 13,
-    propertyType: ["Condo", "Penthouse"],
+    propertyType: ["Condo", "Apartamento"],
     area: "Florida, Miami",
     address: "Washington, Los Angeles",
     license: "BF-04321",
