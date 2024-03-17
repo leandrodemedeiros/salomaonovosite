@@ -18,8 +18,8 @@ export default function Home() {
       <WorkArea />
       <Counter />
       <PropertiesArea />
-      <Feature />
-      <Testimonial />
+      {/* <Feature /> */}
+      {/* <Testimonial /> */}
       <BlogArea />
     </>
   );

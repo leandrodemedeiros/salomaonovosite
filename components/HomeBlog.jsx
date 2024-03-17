@@ -48,7 +48,7 @@ const HomeBlog = ({ blogs }) => {
                   href={`/blogs/${blog.slug}`}
                   className="d-flex align-items-center stretched-link "
                 >
-                  <span>Read the Article</span>
+                  <span>Ler o artigo</span>
                   <ArrowRight size={20} weight="bold" />
                 </Link>
               </div>

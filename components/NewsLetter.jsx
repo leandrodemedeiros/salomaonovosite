@@ -6,19 +6,18 @@ const NewsLetter = () => {
       <div className="row">
         <div className="col-lg-7 mx-auto">
           <div className="cta">
-            <h4>For Recent Update, News.</h4>
+            <h4>Fique atualizado, saiba antes.</h4>
             <p>
-              We helps businesses customize, automate and scale up their ad
-              production and delivery.
+              Assine gratuitamente nossa newsletter para receber notícias do mercado imobiliário direto em seu e-mail.
             </p>
             <form action="GET" className="flex align-items-center">
               <input
                 type="text"
                 className="form-control"
-                placeholder="Enter Your Email"
+                placeholder="Digite seu melhor e-mail"
               />
               <button className="btn d-block d-md-inline-block w-md-auto w-100">
-                Subscribe
+                Assinar
               </button>
             </form>
           </div>

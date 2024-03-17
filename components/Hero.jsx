@@ -62,7 +62,7 @@ const Hero = () => {
                   Encontre o seu lugar.
                 </h1>
                 <p className="hero-content-description">
-                  Nós ajudamos você a encontrar o ambiente perfeito para você, sua família ou seu negócio.
+                  Nós ajudamos você a encontrar o ambiente perfeito para você e sua família ou seu negócio.
                 </p>
               </div>
               <div className="hero-form">
@@ -130,8 +130,8 @@ const Hero = () => {
                             <MapPin size={20} weight="bold" color="#1c4456" />
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handleCity("Brasília")}>
-                              Taguatinga - DF
+                            <li onClick={() => handleCity("Brasília - DF")}>
+                              Brasília - DF
                             </li>
                             <li onClick={() => handleCity("Goiânia - GO")}>
                               Goiânia - GO
@@ -142,8 +142,10 @@ const Hero = () => {
                             <li onClick={() => handleCity("Planaltina - DF")}>
                               Planaltina - DF
                             </li>
-                            <li onClick={() => handleCity("Planaltina - GO")}>Planaltina - GO</li>
-                            <li onClick={() => handleCity("Mexico City")}>
+                            <li onClick={() => handleCity("Planaltina - GO")}>
+                              Planaltina - GO
+                            </li>
+                            <li onClick={() => handleCity("Pirenópolis - GO")}>
                               Pirenópolis - GO
                             </li>
                           </ul>
@@ -189,9 +191,9 @@ const Hero = () => {
                               Apartamentos
                             </li>
                             <li
-                              onClick={() => handleProperty("Salas comerciais")}
+                              onClick={() => handleProperty("Lojas e salas")}
                             >
-                              Salas comerciais
+                              Lojas e salas
                             </li>
                           </ul>
                         </div>
@@ -208,7 +210,7 @@ const Hero = () => {
                             <p>
                               {selectedPrice && <span>{selectedPrice}</span>}
                               <span className="dummyItem">
-                                R$100.000 a R$350.000
+                                R$100 mil a R$350 mil
                               </span>
                             </p>
                             <svg
@@ -229,14 +231,14 @@ const Hero = () => {
                             </svg>
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handlePrice("R$100.000 a R$350.000")}>
-                              R$100.000 a R$350.000
+                            <li onClick={() => handlePrice("R$100 mil a R$350 mil")}>
+                              R$100 mil a R$350 mil
                             </li>
-                            <li onClick={() => handlePrice("R$350.000 a R$550.000")}>
-                              R$350.000 a R$950.000
+                            <li onClick={() => handlePrice("R$350 mil a R$950 mil")}>
+                              R$350 mil a R$950 mil
                             </li>
                             <li onClick={() => handlePrice("a partir de R$950.000")}>
-                              acima de R$950.000
+                              acima de R$950 mil
                             </li>
                           </ul>
                         </div>
@@ -248,7 +250,7 @@ const Hero = () => {
                         >
                           <MagnifyingGlass size={30} weight="bold" />
                           <span className="d-md-none d-inline-block">
-                            Search
+                            Buscar
                           </span>
                         </button>
                       </div>
@@ -262,7 +264,7 @@ const Hero = () => {
                   >
                     <form className="row align-items-center gutter-2">
                       <div className="col-md-3 col-6">
-                        <label className="form-label">City/Street</label>
+                        <label className="form-label">Cidade/Estado</label>
                         <div className="dropholder">
                           <div
                             onClick={() => setCity(!city)}
@@ -272,7 +274,156 @@ const Hero = () => {
                           >
                             <p>
                               {selectedCity && <span>{selectedCity}</span>}
-                              <span className="dummyItem">Brasília </span>
+                              <span className="dummyItem">Brasília - DF</span>
+                            </p>
+                            <MapPin size={20} weight="bold" color="#1c4456" />
+                          </div>
+                          <ul className="dropdownMenu">
+                            <li onClick={() => handleCity("Brasília - DF")}>
+                              Brasília - DF
+                            </li>
+                            <li onClick={() => handleCity("Goiânia - GO")}>
+                              Goiânia - GO
+                            </li>
+                            <li onClick={() => handleCity("Uberlândia - MG")}>
+                              Uberlândia - MG
+                            </li>
+                            <li onClick={() => handleCity("Planaltina - DF")}>
+                              Planaltina - DF
+                            </li>
+                            <li onClick={() => handleCity("Planaltina - GO")}>
+                              Planaltina - GO
+                            </li>
+                            <li onClick={() => handleCity("Pirenópolis - GO")}>
+                              Pirenópolis - GO
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="col-md-3 col-6">
+                        <label className="form-label">Tipo de imóvel</label>
+                        <div className="dropholder">
+                          <div
+                            onClick={() => setProperty(!property)}
+                            className={`customdropdown d-flex justify-content-between align-items-center  ${
+                              property ? "active" : ""
+                            }`}
+                          >
+                            <p>
+                              {selectedProperty && (
+                                <span>{selectedProperty}</span>
+                              )}
+                              <span className="dummyItem">Casas e sobrados</span>
+                            </p>
+                            <svg
+                              width={9}
+                              height={14}
+                              viewBox="0 0 9 14"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.33333 9L4.16667 14L0 9"
+                                fill="#417086"
+                              />
+                              <path
+                                d="M0.000163078 5L4.16683 -3.64256e-07L8.3335 5"
+                                fill="#417086"
+                              />
+                            </svg>
+                          </div>
+                          <ul className="dropdownMenu">
+                            <li onClick={() => handleProperty("Casas e sobrados")}>
+                              Casas e sobrados
+                            </li>
+                            <li onClick={() => handleProperty("Apartamentos")}>
+                              Apartamentos
+                            </li>
+                            <li
+                              onClick={() => handleProperty("Lojas e salas")}
+                            >
+                             Lojas e salas
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="col-md-4 col-sm-6 col-8">
+                        <label className="form-label">Preço do imóvel</label>
+                        <div className="dropholder">
+                          <div
+                            onClick={() => setPrice(!price)}
+                            className={`customdropdown d-flex justify-content-between align-items-center  ${
+                              price ? "active" : ""
+                            }`}
+                          >
+                            <p>
+                              {selectedPrice && <span>{selectedPrice}</span>}
+                              <span className="dummyItem">
+                                R$100 mil a R$350 mil
+                              </span>
+                            </p>
+                            <svg
+                              width={9}
+                              height={14}
+                              viewBox="0 0 9 14"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.33333 9L4.16667 14L0 9"
+                                fill="#417086"
+                              />
+                              <path
+                                d="M0.000163078 5L4.16683 -3.64256e-07L8.3335 5"
+                                fill="#417086"
+                              />
+                            </svg>
+                          </div>
+                          <ul className="dropdownMenu">
+                             <li onClick={() => handlePrice("R$100 mil a R$350 mil")}>
+                              R$100 mil a R$350 mil
+                            </li>
+                            <li onClick={() => handlePrice("R$350 mil a R$950 mil")}>
+                              R$350 mil a R$950 mil
+                            </li>
+                            <li onClick={() => handlePrice("a partir de R$950.000")}>
+                              acima de R$950 mil
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="col-md-2 col-sm-6 text-md-end">
+                        <button
+                          className="btn btn-large submit-button d-flex align-items-center w-100 justify-content-center"
+                          type="submit"
+                        >
+                          <MagnifyingGlass size={30} weight="bold" />
+                          <span className="d-md-none d-inline-block">
+                            Buscar
+                          </span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <div
+                    className="tab-pane fade"
+                    id="nav-rent"
+                    role="tabpanel"
+                    aria-labelledby="nav-rent-tab"
+                  >
+                    <form className="row align-items-center gutter-2">
+                      <div className="col-md-3 col-6">
+                        <label className="form-label">Cidade/Estado</label>
+                        <div className="dropholder">
+                          <div
+                            onClick={() => setCity(!city)}
+                            className={`customdropdown d-flex justify-content-between align-items-center  ${
+                              city ? "active" : ""
+                            }`}
+                          >
+                            <p>
+                              {selectedCity && <span>{selectedCity}</span>}
+                              <span className="dummyItem">Brasília - DF </span>
                             </p>
                             <MapPin size={20} weight="bold" color="#1c4456" />
                           </div>
@@ -297,7 +448,7 @@ const Hero = () => {
                         </div>
                       </div>
                       <div className="col-md-3 col-6">
-                        <label className="form-label">Property Type</label>
+                        <label className="form-label">Tipo de imóvel</label>
                         <div className="dropholder">
                           <div
                             onClick={() => setProperty(!property)}
@@ -309,7 +460,7 @@ const Hero = () => {
                               {selectedProperty && (
                                 <span>{selectedProperty}</span>
                               )}
-                              <span className="dummyItem">Duplex Huse</span>
+                              <span className="dummyItem">Casas e sobrados</span>
                             </p>
                             <svg
                               width={9}
@@ -329,22 +480,22 @@ const Hero = () => {
                             </svg>
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handleProperty("Duplex House")}>
-                              Duplex House
+                            <li onClick={() => handleProperty("Casas e sobrados")}>
+                              Casas e sobrados
                             </li>
-                            <li onClick={() => handleProperty("Single House")}>
-                              Single House
+                            <li onClick={() => handleProperty("Apartamentos")}>
+                              Apartamentos
                             </li>
                             <li
-                              onClick={() => handleProperty("Multiplex House")}
+                              onClick={() => handleProperty("Lojas e salas")}
                             >
-                              Multiplex House
+                              Lojas e salas
                             </li>
                           </ul>
                         </div>
                       </div>
                       <div className="col-md-4 col-sm-6 col-8">
-                        <label className="form-label">Property Price</label>
+                        <label className="form-label">Preço do aluguel</label>
                         <div className="dropholder">
                           <div
                             onClick={() => setPrice(!price)}
@@ -355,7 +506,7 @@ const Hero = () => {
                             <p>
                               {selectedPrice && <span>{selectedPrice}</span>}
                               <span className="dummyItem">
-                                $15000 - $350000
+                                abaixo de R$2 mil
                               </span>
                             </p>
                             <svg
@@ -376,161 +527,14 @@ const Hero = () => {
                             </svg>
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handlePrice("$15000 - $350000")}>
-                              $15000 - $350000
+                            <li onClick={() => handlePrice("abaixo de R$2 mil")}>
+                              abaixo de R$2 mil
                             </li>
-                            <li onClick={() => handlePrice("$10000 - $300000")}>
-                              $10000 - $30000
+                            <li onClick={() => handlePrice("R$900 a R$5 mil")}>
+                              R$900 a R$5 mil
                             </li>
-                            <li onClick={() => handlePrice("$20000 - $400000")}>
-                              $20000 - $40000
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="col-md-2 col-sm-6 text-md-end">
-                        <button
-                          className="btn btn-large submit-button d-flex align-items-center w-100 justify-content-center"
-                          type="submit"
-                        >
-                          <MagnifyingGlass size={30} weight="bold" />
-                          <span className="d-md-none d-inline-block">
-                            Search
-                          </span>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  <div
-                    className="tab-pane fade"
-                    id="nav-rent"
-                    role="tabpanel"
-                    aria-labelledby="nav-rent-tab"
-                  >
-                    <form className="row align-items-center gutter-2">
-                      <div className="col-md-3 col-6">
-                        <label className="form-label">City/Street</label>
-                        <div className="dropholder">
-                          <div
-                            onClick={() => setCity(!city)}
-                            className={`customdropdown d-flex justify-content-between align-items-center  ${
-                              city ? "active" : ""
-                            }`}
-                          >
-                            <p>
-                              {selectedCity && <span>{selectedCity}</span>}
-                              <span className="dummyItem">Brasília </span>
-                            </p>
-                            <MapPin size={20} weight="bold" color="#1c4456" />
-                          </div>
-                          <ul className="dropdownMenu">
-                            <li onClick={() => handleCity("Brasília")}>
-                              Brasília
-                            </li>
-                            <li onClick={() => handleCity("Goiânia - GO")}>
-                              Goiânia - GO
-                            </li>
-                            <li onClick={() => handleCity("Uberlândia - MG")}>
-                              Uberlândia - MG
-                            </li>
-                            <li onClick={() => handleCity("Orlendo")}>
-                              Orlendo
-                            </li>
-                            <li onClick={() => handleCity("Alaska")}>Alaska</li>
-                            <li onClick={() => handleCity("Mexico City")}>
-                              Mexico City
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="col-md-3 col-6">
-                        <label className="form-label">Property Type</label>
-                        <div className="dropholder">
-                          <div
-                            onClick={() => setProperty(!property)}
-                            className={`customdropdown d-flex justify-content-between align-items-center  ${
-                              property ? "active" : ""
-                            }`}
-                          >
-                            <p>
-                              {selectedProperty && (
-                                <span>{selectedProperty}</span>
-                              )}
-                              <span className="dummyItem">Duplex Huse</span>
-                            </p>
-                            <svg
-                              width={9}
-                              height={14}
-                              viewBox="0 0 9 14"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M8.33333 9L4.16667 14L0 9"
-                                fill="#417086"
-                              />
-                              <path
-                                d="M0.000163078 5L4.16683 -3.64256e-07L8.3335 5"
-                                fill="#417086"
-                              />
-                            </svg>
-                          </div>
-                          <ul className="dropdownMenu">
-                            <li onClick={() => handleProperty("Duplex House")}>
-                              Duplex House
-                            </li>
-                            <li onClick={() => handleProperty("Single House")}>
-                              Single House
-                            </li>
-                            <li
-                              onClick={() => handleProperty("Multiplex House")}
-                            >
-                              Multiplex House
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div className="col-md-4 col-sm-6 col-8">
-                        <label className="form-label">Property Price</label>
-                        <div className="dropholder">
-                          <div
-                            onClick={() => setPrice(!price)}
-                            className={`customdropdown d-flex justify-content-between align-items-center  ${
-                              price ? "active" : ""
-                            }`}
-                          >
-                            <p>
-                              {selectedPrice && <span>{selectedPrice}</span>}
-                              <span className="dummyItem">
-                                $15000 - $350000
-                              </span>
-                            </p>
-                            <svg
-                              width={9}
-                              height={14}
-                              viewBox="0 0 9 14"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M8.33333 9L4.16667 14L0 9"
-                                fill="#417086"
-                              />
-                              <path
-                                d="M0.000163078 5L4.16683 -3.64256e-07L8.3335 5"
-                                fill="#417086"
-                              />
-                            </svg>
-                          </div>
-                          <ul className="dropdownMenu">
-                            <li onClick={() => handlePrice("$15000 - $350000")}>
-                              $15000 - $350000
-                            </li>
-                            <li onClick={() => handlePrice("$10000 - $300000")}>
-                              $10000 - $30000
-                            </li>
-                            <li onClick={() => handlePrice("$20000 - $400000")}>
-                              $20000 - $40000
+                            <li onClick={() => handlePrice("acima de R$5 mil")}>
+                              acima de R$5 mil
                             </li>
                           </ul>
                         </div>
@@ -542,7 +546,7 @@ const Hero = () => {
                         >
                           <MagnifyingGlass size={30} weight="bold" />
                           <span className="d-md-none d-inline-block">
-                            Search
+                            Buscar
                           </span>
                         </button>
                       </div>

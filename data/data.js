@@ -125,43 +125,43 @@ export const menuData = [
 export const counterData = [
   {
     id: 1,
-    count: 150,
-    leftIcon: "$",
-    rightIcon: "+",
+    count: 450,
+    leftIcon: "+",
+    rightIcon: "",
     Icon: <DollarIcon />,
-    description: "Owned from <br> Properties transactions",
+    description: "Imóveis negóciados",
   },
   {
     id: 2,
-    count: 25,
-    leftIcon: "",
-    rightIcon: "K+",
+    count: 150,
+    leftIcon: "R$",
+    rightIcon: " mi",
     Icon: <LocationIcon />,
-    description: "Properties for Buy <br> &amp; sell Successfully",
+    description: "Entre compras e vendas",
   },
   {
     id: 3,
-    count: 500,
-    leftIcon: "",
+    count: 100,
+    leftIcon: "+",
     rightIcon: "",
     Icon: <FireIcon />,
-    description: "Daily completed <br> transactions",
+    description: "Consultores parceiros",
   },
   {
     id: 4,
-    count: 600,
-    leftIcon: "$",
-    rightIcon: "+",
+    count: 200,
+    leftIcon: "+",
+    rightIcon: "",
     Icon: <EmojiIcon />,
-    description: "Reagular Clients",
+    description: "Clientes regulares",
   },
 ];
 
 export const propertiesCategory = [
-  {id: 1, title: "Resident Property", category: "residential"},
-  {id: 2, title: "Commercial Property", category: "commercial"},
-  {id: 4, title: "Agriculture Property", category: "agriculture"},
-  {id: 3, title: "Industrial Property", category: "industrial"},
+  {id: 1, title: "Imóveis residenciais", category: "residential"},
+  {id: 2, title: "Imóveis comerciais", category: "commercial"},
+  {id: 4, title: "Sítios e fazendas", category: "agriculture"},
+  {id: 3, title: "Galpões e indústrias", category: "industrial"},
 ];
 
 // PROPERTIES DATA

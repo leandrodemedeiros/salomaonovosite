@@ -23,8 +23,8 @@ const WorkArea = () => {
         <div className="row g-3">
           <div className="col-xl-6 col-lg-5">
             <div className="work-area--card">
-              <h3>Simple &amp; easy way to find your dream apartment</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <h3>O jeito simples de achar o lugar dos seus sonhos</h3>
+              <p>Fale com um de nossos consultores parceiros e deixe que eles façam o trabalho por você.</p>
               <Link
                 href="/contact"
                 className="btn btn-small"
@@ -38,25 +38,25 @@ const WorkArea = () => {
               <div className="work-area--service--items order-2 order-md-1">
                 <SearchLocation />
                 <h4>
-                  Search <br /> your location
+                  1. Encontramos <br /> seu lugar
                 </h4>
               </div>
               <div className="work-area--service--items order-1 order-md-2">
                 <VisitIcon />
                 <h4>
-                  Visit <br /> Apartment
+                  2. Agendamos <br /> sua visita
                 </h4>
               </div>
               <div className="work-area--service--items order-4 order-md-3">
                 <GetIcon />
                 <h4>
-                  Get your <br /> dream house
+                  3. Fechamos <br /> o negócio
                 </h4>
               </div>
               <div className="work-area--service--items order-3 order-md-4">
                 <EnjoyIcon />
                 <h4>
-                  Enjoy your <br /> Apartment
+                  4. Entregamos <br /> suas chaves
                 </h4>
               </div>
             </div>

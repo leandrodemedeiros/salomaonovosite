@@ -28,12 +28,12 @@ const PropertiesArea = () => {
         <div className="row">
           <div className="col-12">
             <div className="d-flex align-items-center justify-content-between properties-header">
-              <h3>Featured Properties</h3>
+              <h3>Imóveis em destaque</h3>
               <Link
                 href="/property"
                 className="d-md-flex align-items-center d-none"
               >
-                <span>Explore All </span>
+                <span>Ver todos </span>
                 <ArrowRight size={20} weight="bold" />
               </Link>
             </div>

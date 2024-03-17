@@ -63,11 +63,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />
@@ -98,11 +98,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />
@@ -149,11 +149,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />
@@ -184,11 +184,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />
@@ -235,11 +235,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />
@@ -271,11 +271,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />
@@ -322,11 +322,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />
@@ -357,11 +357,11 @@ const PropertyMapInfo = () => {
                 <ul className="list-unstyled properties-card--content--features">
                   <li className="d-flex align-items-center">
                     <BedIcon />
-                    <span>3 Bed Room</span>
+                    <span>3 Quartos</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <BathIcon />
-                    <span>1 Bath</span>
+                    <span>1 Banheiro</span>
                   </li>
                   <li className="d-flex align-items-center">
                     <AreaIcon />

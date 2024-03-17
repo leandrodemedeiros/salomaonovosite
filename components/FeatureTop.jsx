@@ -22,12 +22,9 @@ const FeatureTop = () => {
     >
       <div className="col-lg-6 order-lg-1 order-2">
         <div className="feature-content">
-          <h3>Simple &amp; easy way to find your dream Apartment</h3>
+          <h3>Vamos encontrar a melhor opção para você.</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. In a free hour, when our power of choice is untrammelled
-            and when nothing prevents our being able to do what we like best,
-            every pleasure is to be welcomed.
+            Se você não conseguiu encontrar o que procura entre os anúncios, deixe que nossos consultores parceiros procurem o lugar ideal para você.
           </p>
           <Link href="/contact" className="btn btn-small">
             Vamos começar

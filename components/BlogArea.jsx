@@ -31,12 +31,12 @@ const BlogArea = () => {
         <div className="row">
           <div className="col-12">
             <div className="d-flex align-items-center justify-content-between blog-header">
-              <h3>News &amp; Consultant</h3>
+              <h3>Mercado e notícias</h3>
               <Link
                 href="/blogs"
                 className="d-md-flex align-items-center d-none "
               >
-                <span>Explore All </span>
+                <span>Ver tudo </span>
                 <Arrow />
               </Link>
             </div>
@@ -49,7 +49,7 @@ const BlogArea = () => {
               href="/blogs"
               className="btn btn-small btn-outline btn-mobile d-md-none align-items-center d-flex w-auto"
             >
-              <span>Explore All </span>
+              <span>Ver tudo </span>
               <Arrow />
             </Link>
           </div>

@@ -55,15 +55,15 @@ const PropertyCard = ({
         <motion.ul className="list-unstyled properties-card--content--features">
           <motion.li className="d-flex align-items-center">
             <BedIcon />
-            <motion.span>{bed} Bed Room</motion.span>
+            <motion.span>{bed} Quartos</motion.span>
           </motion.li>
           <motion.li className="d-flex align-items-center">
             <BathIcon />
-            <motion.span>{bath} Bath</motion.span>
+            <motion.span>{bath} Banheiros</motion.span>
           </motion.li>
           <motion.li className="d-flex align-items-center">
             <AreaIcon />
-            <motion.span>{area} sqft</motion.span>
+            <motion.span>{area} m2</motion.span>
           </motion.li>
           <motion.li className="d-flex align-items-center">
             <PropertyTypeIcon />

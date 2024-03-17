@@ -14,10 +14,9 @@ const Services = () => {
         <div className="row">
           <div className="col-lg-5">
             <div className="service-title">
-              <h3>Simple &amp; easy way to find your dream apartment</h3>
+              <h3>O jeito simples de achar o lugar dos seus sonhos</h3>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                Fale com um de nossos consultores parceiros e deixe que eles façam o trabalho por você.
               </p>
             </div>
           </div>
