@@ -59,11 +59,10 @@ const Hero = () => {
             >
               <div className="hero-content">
                 <h1 className="hero-content-title">
-                  Find a perfect property Where you&rsquo;ll love to live
+                  Encontre o seu lugar.
                 </h1>
                 <p className="hero-content-description">
-                  We helps businesses customize, automate and scale up their ad
-                  production and delivery.
+                  Nós ajudamos você a encontrar o ambiente perfeito para você, sua família ou seu negócio.
                 </p>
               </div>
               <div className="hero-form">
@@ -79,7 +78,7 @@ const Hero = () => {
                       aria-controls="nav-buy"
                       aria-selected="true"
                     >
-                      Buy
+                      Comprar
                     </button>
                     <button
                       className="nav-link"
@@ -91,7 +90,7 @@ const Hero = () => {
                       aria-controls="nav-sell"
                       aria-selected="false"
                     >
-                      Sell
+                      Vender
                     </button>
                     <button
                       className="nav-link"
@@ -103,7 +102,7 @@ const Hero = () => {
                       aria-controls="nav-rent"
                       aria-selected="false"
                     >
-                      Rent
+                      Alugar
                     </button>
                   </div>
                 </nav>
@@ -116,7 +115,7 @@ const Hero = () => {
                   >
                     <form className="row align-items-center gutter-2">
                       <div className="col-md-3 col-6">
-                        <label className="form-label">City/Street</label>
+                        <label className="form-label">Cidade/Estado</label>
                         <div className="dropholder">
                           <div
                             onClick={() => setCity(!city)}
@@ -126,32 +125,32 @@ const Hero = () => {
                           >
                             <p>
                               {selectedCity && <span>{selectedCity}</span>}
-                              <span className="dummyItem">New York City </span>
+                              <span className="dummyItem">Brasília - DF </span>
                             </p>
                             <MapPin size={20} weight="bold" color="#1c4456" />
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handleCity("New York City")}>
-                              New York City
+                            <li onClick={() => handleCity("Brasília")}>
+                              Taguatinga - DF
                             </li>
-                            <li onClick={() => handleCity("Washington DC")}>
-                              Washington DC
+                            <li onClick={() => handleCity("Goiânia - GO")}>
+                              Goiânia - GO
                             </li>
-                            <li onClick={() => handleCity("Florida")}>
-                              Florida
+                            <li onClick={() => handleCity("Uberlândia - MG")}>
+                              Uberlândia - MG
                             </li>
-                            <li onClick={() => handleCity("Orlendo")}>
-                              Orlendo
+                            <li onClick={() => handleCity("Planaltina - DF")}>
+                              Planaltina - DF
                             </li>
-                            <li onClick={() => handleCity("Alaska")}>Alaska</li>
+                            <li onClick={() => handleCity("Planaltina - GO")}>Planaltina - GO</li>
                             <li onClick={() => handleCity("Mexico City")}>
-                              Mexico City
+                              Pirenópolis - GO
                             </li>
                           </ul>
                         </div>
                       </div>
                       <div className="col-md-3 col-6">
-                        <label className="form-label">Property Type</label>
+                        <label className="form-label">Tipo de imóvel</label>
                         <div className="dropholder">
                           <div
                             onClick={() => setProperty(!property)}
@@ -163,7 +162,7 @@ const Hero = () => {
                               {selectedProperty && (
                                 <span>{selectedProperty}</span>
                               )}
-                              <span className="dummyItem">Duplex Huse</span>
+                              <span className="dummyItem">Casas e sobrados</span>
                             </p>
                             <svg
                               width={9}
@@ -183,22 +182,22 @@ const Hero = () => {
                             </svg>
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handleProperty("Duplex House")}>
-                              Duplex House
+                            <li onClick={() => handleProperty("Casas e sobrados")}>
+                              Casas e sobrados
                             </li>
-                            <li onClick={() => handleProperty("Single House")}>
-                              Single House
+                            <li onClick={() => handleProperty("Apartamentos")}>
+                              Apartamentos
                             </li>
                             <li
-                              onClick={() => handleProperty("Multiplex House")}
+                              onClick={() => handleProperty("Salas comerciais")}
                             >
-                              Multiplex House
+                              Salas comerciais
                             </li>
                           </ul>
                         </div>
                       </div>
                       <div className="col-md-4 col-sm-6 col-8">
-                        <label className="form-label">Property Price</label>
+                        <label className="form-label">Preço do imóvel</label>
                         <div className="dropholder">
                           <div
                             onClick={() => setPrice(!price)}
@@ -209,7 +208,7 @@ const Hero = () => {
                             <p>
                               {selectedPrice && <span>{selectedPrice}</span>}
                               <span className="dummyItem">
-                                $15000 - $350000
+                                R$100.000 a R$350.000
                               </span>
                             </p>
                             <svg
@@ -230,14 +229,14 @@ const Hero = () => {
                             </svg>
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handlePrice("$15000 - $350000")}>
-                              $15000 - $350000
+                            <li onClick={() => handlePrice("R$100.000 a R$350.000")}>
+                              R$100.000 a R$350.000
                             </li>
-                            <li onClick={() => handlePrice("$10000 - $300000")}>
-                              $10000 - $30000
+                            <li onClick={() => handlePrice("R$350.000 a R$550.000")}>
+                              R$350.000 a R$950.000
                             </li>
-                            <li onClick={() => handlePrice("$20000 - $400000")}>
-                              $20000 - $40000
+                            <li onClick={() => handlePrice("a partir de R$950.000")}>
+                              acima de R$950.000
                             </li>
                           </ul>
                         </div>
@@ -273,19 +272,19 @@ const Hero = () => {
                           >
                             <p>
                               {selectedCity && <span>{selectedCity}</span>}
-                              <span className="dummyItem">New York City </span>
+                              <span className="dummyItem">Brasília </span>
                             </p>
                             <MapPin size={20} weight="bold" color="#1c4456" />
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handleCity("New York City")}>
-                              New York City
+                            <li onClick={() => handleCity("Brasília - DF")}>
+                              Brasília - DF
                             </li>
-                            <li onClick={() => handleCity("Washington DC")}>
-                              Washington DC
+                            <li onClick={() => handleCity("Goiânia - GO")}>
+                              Goiânia - GO
                             </li>
-                            <li onClick={() => handleCity("Florida")}>
-                              Florida
+                            <li onClick={() => handleCity("Uberlândia - MG")}>
+                              Uberlândia - MG
                             </li>
                             <li onClick={() => handleCity("Orlendo")}>
                               Orlendo
@@ -420,19 +419,19 @@ const Hero = () => {
                           >
                             <p>
                               {selectedCity && <span>{selectedCity}</span>}
-                              <span className="dummyItem">New York City </span>
+                              <span className="dummyItem">Brasília </span>
                             </p>
                             <MapPin size={20} weight="bold" color="#1c4456" />
                           </div>
                           <ul className="dropdownMenu">
-                            <li onClick={() => handleCity("New York City")}>
-                              New York City
+                            <li onClick={() => handleCity("Brasília")}>
+                              Brasília
                             </li>
-                            <li onClick={() => handleCity("Washington DC")}>
-                              Washington DC
+                            <li onClick={() => handleCity("Goiânia - GO")}>
+                              Goiânia - GO
                             </li>
-                            <li onClick={() => handleCity("Florida")}>
-                              Florida
+                            <li onClick={() => handleCity("Uberlândia - MG")}>
+                              Uberlândia - MG
                             </li>
                             <li onClick={() => handleCity("Orlendo")}>
                               Orlendo

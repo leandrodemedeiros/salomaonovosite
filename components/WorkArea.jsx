@@ -29,7 +29,7 @@ const WorkArea = () => {
                 href="/contact"
                 className="btn btn-small"
               >
-                Get Started
+                Vamos começar
               </Link>
             </div>
           </div>

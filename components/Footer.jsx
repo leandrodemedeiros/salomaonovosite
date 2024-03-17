@@ -25,14 +25,14 @@ const Footer = () => {
                 </div>
                 <div className="footer-address">
                   <p>
-                    Brasilia <br />
-                    New York, NY 5630, CA, US
+                    Setor Sudoeste <br />
+                    Brasília, DF - Brasil
                   </p>
                   <p className="contact-number mb-0">
-                    <a href="tel:+05656565656">+056 686 56 56 98</a>
+                    <a href="tel:+05656565656">+55 (61) 9644-9357</a>
                   </p>
                   <p className="contact-email mb-0">
-                    <a href="mailto:info@staticmania.com">info@staticmania.com</a>
+                    <a href="mailto:info@staticmania.com">contato@elielsalomao.com.br</a>
                   </p>
                 </div>
                 <div className="footer-social">
@@ -51,46 +51,38 @@ const Footer = () => {
             </div>
             <div className="col-xl-2">
               <div className="footer-widget">
-                <h5>Pages</h5>
+                <h5>Links rápidos</h5>
                 <ul className="list-unstyled">
                   <li>
                     <Link
                       href="/"
                       className="footer-link"
                     >
-                      Home Page 1
+                      Principal
                     </Link>
                   </li>
                   <li>
+                    <Link
+                      href="/property"
+                      className="footer-link"
+                    >
+                      Anúncios
+                    </Link>
+                  </li>
+                  {/* <li>
                     <Link
                       href="/homepage2"
                       className="footer-link"
                     >
                       Home Page 2
                     </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="footer-link"
-                    >
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/contact"
-                      className="footer-link"
-                    >
-                      Contact
-                    </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/search"
                       className="footer-link"
                     >
-                      Search
+                      Buscar imóvel
                     </Link>
                   </li>
                 </ul>
@@ -98,22 +90,14 @@ const Footer = () => {
             </div>
             <div className="col-xl-2">
               <div className="footer-widget">
-                <h5>Company Details</h5>
+                <h5>Nossa empresa</h5>
                 <ul className="list-unstyled">
-                  <li>
+                <li>
                     <Link
-                      href="/property"
+                      href="/about"
                       className="footer-link"
                     >
-                      Listing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/property/1"
-                      className="footer-link"
-                    >
-                      Property Details
+                      Quem somos
                     </Link>
                   </li>
                   <li>
@@ -121,68 +105,84 @@ const Footer = () => {
                       href="/agent"
                       className="footer-link"
                     >
-                      Agent List
+                      Parceiros
                     </Link>
                   </li>
                   <li>
+                    <Link
+                      href="/contact"
+                      className="footer-link"
+                    >
+                      Contato
+                    </Link>
+                  </li>
+                  {/* <li>
+                    <Link
+                      href="/property/1"
+                      className="footer-link"
+                    >
+                      Property Details
+                    </Link>
+                  </li> */}
+                  {/* <li>
                     <Link
                       href="/agent/1"
                       className="footer-link"
                     >
                       Agent Profile
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <div className="col-xl-2">
               <div className="footer-widget">
-                <h5>Other Pages</h5>
+                <h5>Mais</h5>
                 <ul className="list-unstyled">
                   <li>
                     <Link
                       href="/blogs"
                       className="footer-link"
                     >
-                      Blogs
+                      Notícias
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/blogs/10-Delightful-Dining-Room-Decor-Trends-for-Spring"
                       className="footer-link"
                     >
                       Blog-single
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/privacy"
                       className="footer-link"
                     >
-                      Privacy Policy
+                      Política de privacidade
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/license"
                       className="footer-link"
                     >
                       License
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link
                       href="/not-Found"
                       className="footer-link"
                     >
                       404 Page
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
-            <div className="col-xl-2">
+            {/* <div className="col-xl-2">
               <div className="footer-widget">
                 <h5>Others</h5>
                 <ul className="list-unstyled">
@@ -238,11 +238,11 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div className="offset-1 col-11">
-              <p className="footer-copyright">RealStatic Limited © {new Date().getFullYear()}</p>
+              <p className="footer-copyright">Salomão Imóveis © {new Date().getFullYear()}</p>
             </div>
           </div>
         </div>
@@ -267,7 +267,7 @@ const Footer = () => {
                     New York, NY 5630, CA, US
                   </p>
                   <p className="contact-number mb-0">
-                    <Link href="tel:+05656565656">+056 686 56 56 98</Link>
+                    <Link href="tel:+556196449357">+55 (61) 9644-9357</Link>
                   </p>
                   <p className="contact-email mb-0">
                     <Link href="mailto:info@staticmania.com">info@staticmania.com</Link>
@@ -284,7 +284,7 @@ const Footer = () => {
                       </li>
                     ))}
                   </ul>
-                  <p className="footer-copyright">RealStatic Limited © {new Date().getFullYear()}</p>
+                  <p className="footer-copyright">Eliel Salomão Imóveis © {new Date().getFullYear()}</p>
                 </div>
               </div>
             </div>
@@ -292,7 +292,7 @@ const Footer = () => {
               <div className="row row-cols-2 gutter-5">
                 <div className="col">
                   <div className="footer-widget">
-                    <h5>Pages</h5>
+                    <h5>Principal</h5>
                     <ul className="list-unstyled">
                       <li>
                         <Link
@@ -315,7 +315,7 @@ const Footer = () => {
                           href="/about"
                           className="footer-link"
                         >
-                          About
+                          Quem somos
                         </Link>
                       </li>
                       <li>
@@ -323,7 +323,7 @@ const Footer = () => {
                           href="/contact"
                           className="footer-link"
                         >
-                          Contact
+                          Contato
                         </Link>
                       </li>
                       <li>
@@ -331,7 +331,7 @@ const Footer = () => {
                           href="/search"
                           className="footer-link"
                         >
-                          Search
+                          Buscar imóvel
                         </Link>
                       </li>
                     </ul>
@@ -339,14 +339,14 @@ const Footer = () => {
                 </div>
                 <div className="col">
                   <div className="footer-widget">
-                    <h5>Company Details</h5>
+                    <h5>Imóveis</h5>
                     <ul className="list-unstyled">
                       <li>
                         <Link
                           href="/property"
                           className="footer-link"
                         >
-                          Listing
+                          Anúncios
                         </Link>
                       </li>
                       <li>
@@ -354,7 +354,7 @@ const Footer = () => {
                           href="/property/1"
                           className="footer-link"
                         >
-                          Property Details
+                          Detalhes de imóveis
                         </Link>
                       </li>
                       <li>
@@ -362,23 +362,23 @@ const Footer = () => {
                           href="/agent"
                           className="footer-link"
                         >
-                          Agent List
+                          Corretores
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                           href="/agent/1"
                           className="footer-link"
                         >
                           Agent Profile
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
                 <div className="col">
                   <div className="footer-widget">
-                    <h5>Other Pages</h5>
+                    <h5>Mais</h5>
                     <ul className="list-unstyled">
                       <li>
                         <Link
@@ -388,42 +388,42 @@ const Footer = () => {
                           Blog
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                           href="/blogs/10-Delightful-Dining-Room-Decor-Trends-for-Spring"
                           className="footer-link"
                         >
                           Blog-single
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link
                           href="/privacy"
                           className="footer-link"
                         >
-                          Privacy Policy
+                          Política de privacidade
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link
                           href="/license"
                           className="footer-link"
                         >
                           License
                         </Link>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <Link
                           href="/not-found"
                           className="footer-link"
                         >
                           404 Page
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
-                <div className="col">
+                {/* <div className="col">
                   <div className="footer-widget">
                     <h5>Others</h5>
                     <ul className="list-unstyled">
@@ -479,7 +479,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -703,7 +703,7 @@ const Footer = () => {
                     New York, NY 5630, CA, US
                   </p>
                   <p className="contact-number mb-0">
-                    <a href="tel:+05656565656">+056 686 56 56 98</a>
+                    <a href="tel:+05656565656">+55 (61) 9644-9357</a>
                   </p>
                   <p className="contact-email mb-0">
                     <a href="mailto:info@staticmania.com">info@staticmania.com</a>

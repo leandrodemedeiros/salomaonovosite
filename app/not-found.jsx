@@ -23,7 +23,7 @@ const NotFound = () => {
                   href="/"
                   className="btn btn-small btn-outline "
                 >
-                  <span>Homepage</span>
+                  <span>Principal</span>
                   <ArrowRight
                     size={16}
                     weight="bold"

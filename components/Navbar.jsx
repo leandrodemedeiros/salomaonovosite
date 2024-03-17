@@ -54,7 +54,7 @@ const Navbar = () => {
                 <circle cx={3} cy="3.5" r={3} fill="#417086" />
               </svg>
               <Phone size={24} weight="bold" />
-              (546) 232 - 9872
+              +55 (61) 9644-9357
             </a>
           </div>
           <div className=" d-none d-sm-flex navbar-search align-items-center ms-auto ms-lg-0 order-lg-last">
@@ -65,19 +65,19 @@ const Navbar = () => {
                   href="/search"
                 >
                   <MagnifyingGlass size={20} />
-                  Search
+                  Buscar imóvel
                 </Link>
               </li>
             </ul>
 
-            <a
+            {/* <a
               className="btn btn-small btn-outline d-none d-lg-inline-block"
               data-bs-toggle="modal"
               href="#login"
               role="button"
             >
               Log In
-            </a>
+            </a> */}
           </div>
           <button
             className="navbar-toggler collapsed"

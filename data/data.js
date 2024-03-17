@@ -14,110 +14,111 @@ import {
 export const menuData = [
   {
     id: 1,
-    parent: "Home",
+    parent: "Principal",
     megamenu: false,
-    children: [
-      {
-        id: 1.1,
-        parent: "Home Page 1",
-        link: "/",
-      },
-      {
-        id: 1.2,
-        parent: "Home Page 2",
-        link: "/homepage2",
-      },
-    ],
+    link: "/",
+    // children: [
+    //   {
+    //     id: 1.1,
+    //     parent: "Bem vindo",
+    //     link: "/",
+    //   },
+    //   {
+    //     id: 1.2,
+    //     parent: "Home Page 2",
+    //     link: "/homepage2",
+    //   },
+    // ],
   },
   {
     id: 2,
-    parent: "About",
+    parent: "Quem somos",
     link: "/about",
   },
   {
     id: 3,
-    parent: "Listings",
+    parent: "Anúncios",
     link: "/property",
   },
   {
     id: 4,
-    parent: "Agents",
-    megamenu: false,
-    children: [
-      {
-        id: 4.1,
-        parent: "Agent List",
-        link: "/agent",
-      },
-      {
-        id: 4.2,
-        parent: "Agent Profile",
-        link: "/agent/1",
-      },
-    ],
+    parent: "Parceiros",
+    link: "/agent",
+    // children: [
+    //   {
+    //     id: 4.1,
+    //     parent: "Agent List",
+    //     link: "/agent",
+    //   },
+    //   {
+    //     id: 4.2,
+    //     parent: "Agent Profile",
+    //     link: "/agent/1",
+    //   },
+    // ],
   },
-  {
-    id: 5,
-    parent: "Other pages",
-    megamenu: true,
-    children: [
-      {
-        id: 5.1,
-        parent: "Blog",
-        link: "/blogs",
-      },
-      {
-        id: 5.2,
-        parent: "Blog Single",
-        link: "/blogs/10-Delightful-Dining-Room-Decor-Trends-for-Spring",
-      },
-      {
-        id: 5.3,
-        parent: "Contact",
-        link: "/contact",
-      },
-      {
-        id: 5.4,
-        parent: "Privacy Policy",
-        link: "/privacy",
-      },
-      {
-        id: 5.5,
-        parent: "License",
-        link: "/license",
-      },
-      {
-        id: 5.6,
-        parent: "404 Page",
-        link: "/notFound",
-      },
-      {
-        id: 5.7,
-        parent: "Log In",
-        link: "#login",
-      },
-      {
-        id: 5.8,
-        parent: "Enter OTP",
-        link: "#otp",
-      },
-      {
-        id: 5.9,
-        parent: "New Password",
-        link: "#newPassword",
-      },
-      {
-        id: 6.0,
-        parent: "Reset Password",
-        link: "#resetPassword",
-      },
-      {
-        id: 6.1,
-        parent: "Create Account",
-        link: "#createAccount",
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   parent: "Other pages",
+  //   megamenu: true,
+  //   children: [
+  //     {
+  //       id: 5.1,
+  //       parent: "Blog",
+  //       link: "/blogs",
+  //     },
+  //     {
+  //       id: 5.2,
+  //       parent: "Blog Single",
+  //       link: "/blogs/10-Delightful-Dining-Room-Decor-Trends-for-Spring",
+  //     },
+  //     {
+  //       id: 5.3,
+  //       parent: "Contact",
+  //       link: "/contact",
+  //     },
+  //     {
+  //       id: 5.4,
+  //       parent: "Privacy Policy",
+  //       link: "/privacy",
+  //     },
+  //     {
+  //       id: 5.5,
+  //       parent: "License",
+  //       link: "/license",
+  //     },
+  //     {
+  //       id: 5.6,
+  //       parent: "404 Page",
+  //       link: "/notFound",
+  //     },
+  //     {
+  //       id: 5.7,
+  //       parent: "Log In",
+  //       link: "#login",
+  //     },
+  //     {
+  //       id: 5.8,
+  //       parent: "Enter OTP",
+  //       link: "#otp",
+  //     },
+  //     {
+  //       id: 5.9,
+  //       parent: "New Password",
+  //       link: "#newPassword",
+  //     },
+  //     {
+  //       id: 6.0,
+  //       parent: "Reset Password",
+  //       link: "#resetPassword",
+  //     },
+  //     {
+  //       id: 6.1,
+  //       parent: "Create Account",
+  //       link: "#createAccount",
+  //     },
+  //   ],
+  // },
 ];
 
 // COUNTER DATA

@@ -72,7 +72,7 @@ const PropertyCard = ({
         </motion.ul>
         <motion.div className="properties-card--footer d-flex align-items-center justify-content-between">
           <Link href={`/property/${id}`} className="btn btn-small">
-            View Details
+            Ver detalhes
           </Link>
           <motion.h5>${price.toLocaleString()}</motion.h5>
         </motion.div>

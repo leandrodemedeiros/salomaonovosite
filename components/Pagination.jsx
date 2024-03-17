@@ -30,7 +30,7 @@ const Pagination = ({paginateFunction}) => {
                   className="page-link"
                   disabled={currentPage === totalPage}
                 >
-                  Next Page
+                  Próxima página
                   <ArrowRight
                     size={16}
                     weight="bold"

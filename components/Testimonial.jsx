@@ -12,7 +12,7 @@ const PrevArrow = (props) => {
       className="slick-prev slick-arrow mt-md-0 mt-5 d-block"
     >
       <ArrowLeft size={16} weight="bold" />
-      Previous
+      Anterior
     </button>
   );
 };
@@ -23,7 +23,7 @@ const NextArrow = (props) => {
       type="button"
       className="slick-next slick-arrow mt-md-0 mt-5 d-block"
     >
-      Next
+      Seguinte
       <ArrowRight size={16} weight="bold" />
     </button>
   );

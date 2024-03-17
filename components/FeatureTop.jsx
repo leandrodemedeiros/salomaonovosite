@@ -30,7 +30,7 @@ const FeatureTop = () => {
             every pleasure is to be welcomed.
           </p>
           <Link href="/contact" className="btn btn-small">
-            Get Started
+            Vamos começar
           </Link>
         </div>
       </div>
